@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbarDiv {
+    display: flex;
+    justify-content: space-between; 
+    background-color: gray;
+    height: 80px;   
+}
+
+li {
+    list-style: none;
+}
+
+.navbarDiv ul {
+    display: flex;
+    gap: 10px;
+    padding-right: 20px;
+    align-items: center;
+    height: 100%;
+}
+
+.logoDiv {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signInbtn {
+    background-color: rgb(194, 206, 196);
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+}
